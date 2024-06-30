@@ -18,7 +18,7 @@ git clone  https://github.com/dhruba2807/Javascript-Projects.git
 cd Javascript-Projects
 
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you have suggestions, improvements, or additional exercises/projects that you think would be beneficial, please open an issue or submit a pull request.
 
