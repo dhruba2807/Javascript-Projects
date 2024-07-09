@@ -1,5 +1,3 @@
-Basic Music Player
-This is a simple web-based music player application.
+# Music Player App - Project 3
 
-Demo
-You can see the live demo here.
+Visit [[https://music-player-app-ritam.netlify.app/](https://music-player-app-ritam.netlify.app/)](https://loquacious-hamster-6ebfa1.netlify.app/) to see the live website.
