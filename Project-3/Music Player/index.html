@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=EBj8jqpgIbhC&format=png&color=000000">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img class="image" src="https://c.saavncdn.com/606/Aalas-Ka-Pedh-Hindi-2015-500x500.jpg"
+                alt="the song images">
+            <h1>Choo Lo</h1>
+            <p>Aalas Ka Pedh by The Local Train</p>
+
+
+            <audio id="audio-song">
+                <source src="./assets/music.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div>
+                    <i id="control" class="fa-solid fa-play" onclick="playPause()"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/07209be252.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
