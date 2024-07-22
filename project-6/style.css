@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #6fd649;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #6fd649;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #5ab537;
+}
+
+span {
+  color: red;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  font-size: 20pxpx;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(98, 201, 98);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  input, textarea {
+      font-size: 14px;
+  }
+
+  .btn {
+      font-size: 16px;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  input, textarea {
+      font-size: 12px;
+  }
+
+  .btn {
+      font-size: 14px;
+      padding: 8px;
+  }
+}
